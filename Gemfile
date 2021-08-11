@@ -11,7 +11,7 @@ gem "sass-rails", "~> 6.0"
 gem "uglifier", ">= 1.3.0"
 
 gem "devise", "~> 4.8"
-gem "omniauth-oauth2", "~> 1.7"
+gem "omniauth-oauth2", "~> 1.7.1"
 gem "rollbar"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 
@@ -23,6 +23,7 @@ end
 group :development, :test do
   gem "pry-byebug"
   gem "sqlite3", "~> 1.4.2"
+  gem 'pry-stack_explorer', '~> 0.6.0'
 end
 
 group :production do
